@@ -24,13 +24,10 @@ function pesquisa(buscando, array2) {
         }
     }        
 }
-// Laço de repetição apenas para testar todos os valores da lista e provar que todos estão funcionando corretamente
-// Para usar o algoritmo basta chamar a função pesquisa({buscando}, {lista}), o valor que está buscando e a lista
-var n = array2[0][0]
-while(array2[array2.length - 1][0] >= n) {
-    var posicao = pesquisa(n.toString(), array2);
-    console.log('O valor ' + n + ' está na posição ' + posicao + ' com o valor de ' + array2[posicao][1])
-    n++
-}
-// Valor que retorna undefined
-console.log(pesquisa('-10', array2))
+// Laço de repetição apenas para testar todos os valores da lista e provar que todos estão funcionando corretamente. Para usar o algoritmo basta chamar a função pesquisa({buscando}, {lista}) com o valor que está buscando e a lista
+// var n = array2[0][0]
+// while(array2[array2.length - 1][0] >= n) {
+//     var posicao = pesquisa(n.toString(), array2);
+//     n++
+// }
+console.log(pesquisa('2005', array2))
